@@ -1,0 +1,23 @@
+.about-works {
+    padding: 120px 0;
+
+    &__items {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: 1fr;
+        grid-gap: 40px;
+    
+        @media (max-width: 991.98px) {
+            grid-template-columns: repeat(1, 1fr);
+            justify-items: center;
+        }
+    }
+
+    h2 {
+        margin-bottom: 60px;
+    }
+
+    @media (max-width: 565.98px) {
+        padding: 120px 10px;
+    }
+}
