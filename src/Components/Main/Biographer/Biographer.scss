@@ -1,0 +1,46 @@
+.biographer {
+  margin: 120px 0;
+
+  @media (max-width: 768px) {
+    margin: 50px 0;
+  }
+  
+  &-block {
+    margin-top: 60px;
+    display: flex;
+
+    @media (max-width: 1024px) {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+
+    @media (max-width: 768px) {
+      margin: 40px;
+    }
+    
+    .img-block {
+      max-width: 387px;
+      margin-right: 40px;
+
+      @media (max-width: 1024px) {
+        margin-right: 0;
+        margin-bottom: 30px;
+      }
+      
+      img {
+        width: 100%;
+      }
+    }
+
+    .text-block {
+      max-width: 680px;
+      font-family: 'Montserrat';
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 125%;
+      letter-spacing: 0.01em;
+      color: #000000;
+    }
+  }
+  
+}
