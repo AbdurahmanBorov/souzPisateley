@@ -1,0 +1,35 @@
+.work-card {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+
+  &__img {
+    max-width: 100%;
+    margin-right: 40px;
+
+    img {
+      max-width: 100%;
+      margin: 0 auto;
+    }
+  }
+
+  &__content {
+    max-width: 387px;
+  }
+
+  &__title {
+    margin-bottom: 15px;
+  }
+
+  &__reading {
+    a {
+      color: #4E8AFF;
+      text-decoration: none;
+    }
+  }
+
+  @media (max-width: 565.99px) {
+    grid-template-columns: none;
+    grid-template-rows: auto 1fr;
+  }
+}

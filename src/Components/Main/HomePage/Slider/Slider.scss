@@ -2,7 +2,8 @@
   position: relative;
   margin-top: 60px;
   overflow: hidden;
-  max-width: 1240px;
+  max-width: 1210px;
+  background: chartreuse;
 
   &-line {
     display: flex;
@@ -11,6 +12,16 @@
     width: 100%;
     gap: 40px;
     transition: 0.5s;
+  }
+  
+  @media (max-width: 1240px) {
+    &-line {
+      gap: 30px;
+
+      .card {
+        width: 387px;
+      }
+    }
   }
 }
 
@@ -21,7 +32,7 @@
     top: 70%;
     transform: translateY(-50%);
     z-index: 3;
-    left: -20px;
+    left: -10px;
     font-size: 24px;
     display: flex;
     justify-content: center;
@@ -37,7 +48,7 @@
     top: 70%;
     transform: translateY(-50%);
     z-index: 3;
-    right: -20px;
+    right: -10px;
     font-size: 24px;
     display: flex;
     justify-content: center;
@@ -48,3 +59,22 @@
     border-radius: 50%;
   }
 }
+
+
+// .slider {
+//   border: 2px solid black;
+//   /* width: 100%; */
+//   max-width: 80%;
+//   /* height: 300px; */
+//   margin: 20px auto;
+//   overflow: hidden;
+// }
+
+// .slider-line {
+//   width: 1024px;
+//   display: flex;
+//   background: orange;
+//   position: relative;
+//   left: 0;
+//   transition: all ease 1s;
+// }
