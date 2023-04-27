@@ -7,19 +7,18 @@ import './HomePage.scss'
 const HomePage = () => {
   return (
     <section className='homePage'>
-      {/* <div className='home'>
+      <div className='home'>
         <div className="container">
           <h1 className="home_title">
-            Amet minim mollit est 
-            sit aliqua dolor
+            Союз писателей Ингушетии
           </h1>
           <p className="home_description">
             Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
           </p>
         </div>
-      </div> */}
+      </div>
       <div className="container">
-        {/* <div className='aboutUnionWriters'>
+        <div className='aboutUnionWriters'>
           <div className="text-block">
             <h2 className="section-title section-title_aboutUnionWriters">О союзе писателей</h2>
             <p className='text'>
@@ -38,7 +37,7 @@ const HomePage = () => {
             <Card />
             <Card />
           </div>
-        </div> */}
+        </div>
         <div className='gallery'>
           <h2 className="section-title">Галерея</h2>
           <Slider />

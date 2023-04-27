@@ -16,7 +16,7 @@ const AboutUs = () => {
             <ProjectCard />
             <ProjectCard />
         </div>
-        <div className='aboutUs-button'><ButtonLink to='./projects' /></div>
+        <div className='aboutUs-button'><ButtonLink to='../projects' /></div>
       </div>
 
       <div className="writers container">
@@ -26,7 +26,7 @@ const AboutUs = () => {
           <WritersCard />
           <WritersCard />
         </div>
-        <div className='aboutUs-button'><ButtonLink to='./writers' /></div>
+        <div className='aboutUs-button'><ButtonLink to='../writers' /></div>
       </div>
 
       <div className="works container">
@@ -37,7 +37,7 @@ const AboutUs = () => {
           <WorkCard />
           <WorkCard />
         </div>
-        <div className='aboutUs-button'><ButtonLink to='./creation' /></div>
+        <div className='aboutUs-button'><ButtonLink to='../creation' /></div>
       </div> 
     </section>
   );

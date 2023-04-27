@@ -1,28 +1,31 @@
 .slider {
+  margin: auto;
   position: relative;
   margin-top: 60px;
   overflow: hidden;
   max-width: 1210px;
-  background: chartreuse;
+
+  @media (max-width: 1024px) {
+    max-width: 800px;
+  }
+
+  @media (max-width: 1024px) {
+    max-width: 800px;
+  }
+
+  @media (max-width: 768px) {
+    max-width: 387px;
+  }
 
   &-line {
     display: flex;
     position: relative;
     left: 0;
     width: 100%;
-    gap: 40px;
+    gap: 27px;
     transition: 0.5s;
   }
-  
-  @media (max-width: 1240px) {
-    &-line {
-      gap: 30px;
 
-      .card {
-        width: 387px;
-      }
-    }
-  }
 }
 
 .arrow {
@@ -41,6 +44,14 @@
     height: 41px;
     background: #EAEAEA;
     border-radius: 50%;
+
+    @media (max-width: 1024px) {
+      left: 90px;
+    }
+
+    @media (max-width: 475px) {
+      left: -10px;
+    }
   }
 
   &-rigth {
@@ -57,24 +68,13 @@
     height: 41px;
     background: #EAEAEA;
     border-radius: 50%;
+    
+    @media (max-width: 1024px) {
+      right: 90px;
+    }
+
+    @media (max-width: 475px) {
+      right: -10px;
+    }
   }
 }
-
-
-// .slider {
-//   border: 2px solid black;
-//   /* width: 100%; */
-//   max-width: 80%;
-//   /* height: 300px; */
-//   margin: 20px auto;
-//   overflow: hidden;
-// }
-
-// .slider-line {
-//   width: 1024px;
-//   display: flex;
-//   background: orange;
-//   position: relative;
-//   left: 0;
-//   transition: all ease 1s;
-// }

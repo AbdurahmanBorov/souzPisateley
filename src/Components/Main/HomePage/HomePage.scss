@@ -12,7 +12,8 @@
   
     &_title {
       padding-top: 225px;
-      max-width: 805px;
+      text-align: center;
+      // max-width: 805px;
       font-family: 'Montserrat';
       font-weight: 700;
       font-size: 55px;
@@ -35,6 +36,8 @@
   
     &_description {
       max-width: 585px;
+      margin: 0 auto;
+      text-align: center;
       font-family: 'Montserrat';
       font-weight: 500;
       font-size: 18px;

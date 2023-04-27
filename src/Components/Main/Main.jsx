@@ -8,6 +8,7 @@ import AboutUs from './AboutUs/AboutUs'
 import Projects from './Project/Projects';
 import Writers from './Writers/Writers';
 import Creation from './Creation/Creation';
+import Contacts from './Contacts/Contacts';
 
 const Main = () => {
   return (
@@ -20,6 +21,7 @@ const Main = () => {
         <Route path="/projects" element={<Projects />} />
         <Route path="/writers" element={<Writers />} />
         <Route path="/creation" element={<Creation />} />
+        <Route path="/contacts" element={<Contacts />} />
       </Routes>
     </main>
   );
