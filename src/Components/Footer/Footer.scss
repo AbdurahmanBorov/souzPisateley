@@ -21,6 +21,13 @@
         display: flex;
         align-items: center;
         margin-right: 80px;
+        color: #fff;
+        text-decoration: none;
+        transition: transform 0.3s ease-in-out;
+
+        &:hover {
+            transform: scale(1.05);
+        }
 
         @media (max-width: 991.91px) {
             margin-right: 10px;
@@ -78,6 +85,11 @@
         &-mail {
             display: flex;
             align-items: center;
+            transition: transform 0.3s ease-in-out;
+
+            &:hover {
+                transform: scale(1.05);
+            }    
 
             svg {
                 margin-right: 8px;

@@ -5,7 +5,7 @@ export const Footer = () => {
     return (
         <footer className='footer'>
             <div className="footer__shell container">
-                <div className="footer__logo">
+                <a className="footer__logo" href='#'>
                     <div>
                         <svg width="48" height="71" viewBox="0 0 48 71" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <rect y="22.72" width="13.9355" height="48.28" fill="white" />
@@ -35,7 +35,7 @@ export const Footer = () => {
                         </svg>
                     </div>
                     <p className='span'>Союз Писателей </p>
-                </div>
+                </a>
                 <div className="footer__content">
                     <div className="footer__location">
                         <div>

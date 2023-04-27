@@ -12,7 +12,7 @@
         transition: transform 0.3s ease-in-out;
 
         &:hover {
-            transform: scale(1.1);
+            transform: scale(1.05);
         }
 
         a {
@@ -84,9 +84,14 @@
         align-items: center;
         color: #fff;
         text-decoration: none;
+        transition: transform 0.3s ease-in-out;
 
         img {
             margin-right: 22px;
+        }
+
+        &:hover {
+            transform: scale(1.05)
         }
     }
 
@@ -126,7 +131,7 @@
                 transition: transform 0.3s ease-in-out;
 
                 &:hover {
-                    transform: scale(1.1);
+                    transform: scale(1.05);
                 }
 
                 a {
